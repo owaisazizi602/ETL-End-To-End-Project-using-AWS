@@ -1,0 +1,1 @@
+{"Rule":"IsComplete \"imdb_rating\"","Outcome":"Passed","FailureReason":null,"EvaluatedMetrics":{"Column.imdb_rating.Completeness":1.0},"EvaluatedRule":"IsComplete \"imdb_rating\""}

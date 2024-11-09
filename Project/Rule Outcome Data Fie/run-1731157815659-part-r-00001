@@ -1,0 +1,1 @@
+{"Rule":"ColumnValues \"imdb_rating\" between 8.5 and 10.3","Outcome":"Failed","FailureReason":"Value: 7.6 does not meet the constraint requirement!","EvaluatedMetrics":{"Column.imdb_rating.Minimum":7.6,"Column.imdb_rating.Maximum":9.3},"EvaluatedRule":"ColumnValues \"imdb_rating\" between 8.5 and 10.3"}

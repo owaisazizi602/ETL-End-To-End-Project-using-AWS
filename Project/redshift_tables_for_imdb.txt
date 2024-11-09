@@ -1,0 +1,28 @@
+create schema movies;
+
+create table movies.imdb_movies_rating(
+
+Poster_Link varchar (MAX),
+Series_Title varchar (MAX),
+Released_Year varchar(10),
+Certificate varchar(50),
+Runtime varchar(50),
+Genre varchar(200),
+IMDB_Rating decimal(10,2),
+Overview varchar(max),
+Meta_score int,
+Director varchar(200),
+Star1 varchar(200),
+Star2 varchar(200),
+Star3 varchar(200),
+Star4 varchar(200),
+No_of_Votes int,
+Gross varchar(20)
+);
+
+select *
+from movies.imdb_movies_rating
+limit 10;
+
+select count(*)
+from movies.imdb_movies_rating;
